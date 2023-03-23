@@ -37,6 +37,7 @@ DIV {
 	width: 399px; /*49.5%*/
 	height: 50px;
 	border: 1px solid red; 
+}
 	
 .button-container { 
     display: flex;
