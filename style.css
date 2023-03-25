@@ -85,5 +85,18 @@ DIV {
 	color: #FFF;
 	background-position: 100%;
 }
+
+.button-3 {
+	color: #68DEA0; 
+	border: 3px solid #68DEA0; 
+	background-image: linear-gradient(to top, #68DEA0 50%, transparent 50%);
+	background-size: 100% 200%; 
+	background-position: 0% 0%;
+}
+
+.button-3:hover {
+	color: #FFF; 
+	background-position: 0% 100%; 
+}
 	
 
