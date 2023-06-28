@@ -107,4 +107,21 @@
 main {
   background-color: orange;
 }
+
+.card {
+  /* Set the position to relative to enable movement */
+  position: relative;
+}
+
+.card-body {
+  /* Set initial position */
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card-body {
+  /* Set the movement on hover */
+  transform: translateX(15px); /* Adjust the distance as needed */
+}
+
 	
