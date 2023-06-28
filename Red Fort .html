@@ -26,12 +26,30 @@
             padding: 20px;
             text-align: center;
         }
+
+    /* CSS for the moving text */
+    .moving-text {
+      animation: moveText 2s linear infinite;
+    }
+
+    /* CSS animation */
+    @keyframes moveText {
+      0% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(100px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
     </style>
 	<link rel="stylesheet" href="RedFortstyle.css">
 </head>
 <body>
     <header>
-        <h1>Red Fort</h1>
+        <h1 class="moving-text">RED FORT</h1>
     </header>
     <a href="file:///G:/Shared%20drives/2024%20Information%20Software%20Technology/Ismail.Rizvi/My%20first%20website/2024IST-Website-Ismail.Rizvi/index.html">
         <button style="font-size: 20px">PRESS TO GO HOME</button>  

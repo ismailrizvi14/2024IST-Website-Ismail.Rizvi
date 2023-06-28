@@ -2,6 +2,35 @@
 <html lang="en"
 <HEAD>
 <TITLE>DWAYNE JOHNSON</TITLE>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Moving Text</title>
+  <style>
+    /* CSS for the moving text */
+    .moving-text {
+      animation: moveText 2s linear infinite;
+    }
+
+    /* CSS animation */
+    @keyframes moveText {
+      0% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(100px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="moving-text">Hello, World!</h1>
+</body>
+</html>
+
 <link rel="shortcut icon" href="images/favicon.png" />
 <link href="style.css" rel="stylesheet" type="text/css" />
 </HEAD>
